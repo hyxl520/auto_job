@@ -13,7 +13,12 @@
 </div>
 
 
-[English document](./README_EN.md)
+<div  style="display:flex;width:100%;height:100px;justify-content:space-around;align-items:center;">
+    <div>
+        <a src="./README.md">中文文档</a> |
+        <a src="./README_EN.md">English Document</a>
+	</div>
+</div>
 
 ## <span style="color:#FFFE91;">版本更新</span>
 
