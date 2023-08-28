@@ -1,0 +1,228 @@
+2023-08-23 14:17:39,999 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-23 14:17:47,008 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9502离线1次
+2023-08-23 14:17:47,083 - ERROR - [nioEventLoopGroup-2-1] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-23 15:30:31,142 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-23 15:30:34,042 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-23 15:30:38,840 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-23 15:30:41,020 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9502离线1次
+2023-08-23 15:30:41,067 - ERROR - [nioEventLoopGroup-2-1] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-23 15:30:44,905 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9503离线1次
+2023-08-23 15:30:44,938 - ERROR - [nioEventLoopGroup-2-1] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-23 15:31:12,831 - ERROR - [taskExecutorPool-fastPool-1-thread-3] com.jingge.autojob.skeleton.model.alert.handler.TaskRunErrorAlertEventHandler - [TaskRunErrorAlertEventHandler.java,29] - 发送报警邮件失败
+2023-08-23 15:31:13,834 - ERROR - [taskExecutorPool-fastPool-1-thread-4] com.jingge.autojob.skeleton.model.alert.handler.TaskRunErrorAlertEventHandler - [TaskRunErrorAlertEventHandler.java,29] - 发送报警邮件失败
+2023-08-23 15:46:41,930 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-23 15:46:44,861 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-23 15:46:49,185 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-23 15:46:51,206 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9502离线1次
+2023-08-23 15:46:51,288 - ERROR - [nioEventLoopGroup-2-1] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-23 15:46:54,617 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9503离线1次
+2023-08-23 15:46:54,679 - ERROR - [nioEventLoopGroup-2-1] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-23 15:51:29,360 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-23 15:51:34,300 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-23 15:51:37,391 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-23 15:51:37,680 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9502离线1次
+2023-08-23 15:51:37,740 - ERROR - [nioEventLoopGroup-2-1] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-23 15:51:42,742 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9503离线1次
+2023-08-23 15:51:42,802 - ERROR - [nioEventLoopGroup-2-1] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-23 16:03:02,809 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-23 16:03:17,589 - ERROR - [nioEventLoopGroup-2-1] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-23 16:03:17,592 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9502离线1次
+2023-08-23 16:03:19,595 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9502离线2次
+2023-08-23 16:03:19,625 - ERROR - [nioEventLoopGroup-2-2] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-23 16:03:57,948 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-23 16:04:11,040 - ERROR - [nioEventLoopGroup-2-1] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-23 16:04:11,047 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9502离线1次
+2023-08-23 16:04:34,972 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-23 16:04:41,777 - ERROR - [nioEventLoopGroup-2-1] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-23 16:04:41,779 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9502离线1次
+2023-08-23 16:04:53,953 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-23 16:05:24,664 - ERROR - [nioEventLoopGroup-2-1] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-23 16:05:24,676 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9502离线1次
+2023-08-23 16:05:27,650 - ERROR - [nioEventLoopGroup-2-2] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-23 16:05:27,653 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9502离线2次
+2023-08-23 16:05:46,107 - ERROR - [nioEventLoopGroup-2-3] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-23 16:05:46,110 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9502离线3次
+2023-08-23 16:05:46,111 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,136] - 节点：10.206.199.112:9502离线
+2023-08-23 16:05:46,112 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,138] - 节点：10.206.199.112:9502已被剔除
+2023-08-23 16:06:12,984 - ERROR - [nioEventLoopGroup-2-4] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-23 16:07:51,823 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-23 16:07:56,539 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:07:57,572 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9502离线1次
+2023-08-23 16:07:57,572 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:07:57,572 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9502，是否在线：null，上次响应时长：4021ms
+2023-08-23 16:07:57,573 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:07:57,618 - ERROR - [nioEventLoopGroup-2-1] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-23 16:07:58,786 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AbstractScheduler - [AbstractScheduler.java,73] - 获取DB任务：449351758948552704的锁成功
+2023-08-23 16:07:58,786 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,204] - 任务449351758948552704已经调度进时间轮
+2023-08-23 16:08:01,499 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:08:03,009 - WARN - [startSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,71] - 任务：449351758948552704-2023-08-23 16:08:03时间轮触发成功
+2023-08-23 16:08:05,550 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9502离线2次
+2023-08-23 16:08:05,550 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:08:05,550 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9502，是否在线：null，上次响应时长：2002ms
+2023-08-23 16:08:05,550 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:08:05,603 - ERROR - [nioEventLoopGroup-2-2] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-23 16:08:06,499 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:08:11,499 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:08:15,550 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9502离线3次
+2023-08-23 16:08:15,551 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,136] - 节点：10.206.199.112:9502离线
+2023-08-23 16:08:15,551 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,138] - 节点：10.206.199.112:9502已被剔除
+2023-08-23 16:08:15,594 - ERROR - [nioEventLoopGroup-2-3] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-23 16:08:16,499 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:08:17,605 - ERROR - [nioEventLoopGroup-2-4] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-23 16:08:21,500 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:08:22,240 - WARN - [taskExecutorPool-fastPool-1-thread-1] com.jingge.autojob.skeleton.model.scheduler.AutoJobRunSuccessScheduler - [AutoJobRunSuccessScheduler.java,76] - 任务449351758948552704刷新成功，下次执行时间2023-08-23 16:08:29
+2023-08-23 16:08:24,004 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AbstractScheduler - [AbstractScheduler.java,73] - 获取DB任务：449351758948552704的锁成功
+2023-08-23 16:08:24,005 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,204] - 任务449351758948552704已经调度进时间轮
+2023-08-23 16:08:26,499 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:08:29,001 - WARN - [startSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,71] - 任务：449351758948552704-2023-08-23 16:08:29时间轮触发成功
+2023-08-23 16:08:31,499 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:10:27,500 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-23 16:10:32,058 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:10:32,897 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9502离线1次
+2023-08-23 16:10:32,897 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:10:32,898 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9502，是否在线：null，上次响应时长：3839ms
+2023-08-23 16:10:32,898 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:10:32,926 - ERROR - [nioEventLoopGroup-2-1] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-23 16:10:34,282 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AbstractScheduler - [AbstractScheduler.java,73] - 获取DB任务：449352411087568896的锁成功
+2023-08-23 16:10:34,283 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,204] - 任务449352411087568896已经调度进时间轮
+2023-08-23 16:10:37,024 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:10:39,003 - WARN - [startSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,71] - 任务：449352411087568896-2023-08-23 16:10:39时间轮触发成功
+2023-08-23 16:10:41,051 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9502离线2次
+2023-08-23 16:10:41,051 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:10:41,052 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9502，是否在线：null，上次响应时长：2000ms
+2023-08-23 16:10:41,052 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:10:41,082 - ERROR - [nioEventLoopGroup-2-2] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-23 16:10:42,023 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:10:47,024 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:11:10,595 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-23 16:11:15,044 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-23 16:11:17,574 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-23 16:11:19,362 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9502离线1次
+2023-08-23 16:11:19,392 - ERROR - [nioEventLoopGroup-2-1] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-23 16:11:24,221 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9503离线1次
+2023-08-23 16:11:44,300 - ERROR - [taskExecutorPool-fastPool-1-thread-2] com.jingge.autojob.skeleton.model.alert.handler.TaskRunErrorAlertEventHandler - [TaskRunErrorAlertEventHandler.java,29] - 发送报警邮件失败
+2023-08-23 16:14:05,271 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-23 16:14:09,220 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-23 16:14:12,086 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-23 16:14:12,958 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:14:13,909 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9502离线1次
+2023-08-23 16:14:13,910 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:14:13,911 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9502，是否在线：null，上次响应时长：5805ms
+2023-08-23 16:14:13,912 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:14:13,940 - ERROR - [nioEventLoopGroup-2-1] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-23 16:14:15,793 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AbstractScheduler - [AbstractScheduler.java,73] - 获取DB任务：449353340169949184的锁成功
+2023-08-23 16:14:15,794 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,204] - 任务449353340169949184已经调度进时间轮
+2023-08-23 16:14:17,591 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:14:17,875 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:14:18,389 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:14:18,390 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9503，是否在线：null，上次响应时长：nullms
+2023-08-23 16:14:18,390 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9502，是否在线：true，上次响应时长：288ms
+2023-08-23 16:14:18,390 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:14:18,437 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9503离线1次
+2023-08-23 16:14:18,437 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:14:18,438 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9503，是否在线：null，上次响应时长：5595ms
+2023-08-23 16:14:18,438 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:14:18,438 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9501，是否在线：null，上次响应时长：nullms
+2023-08-23 16:14:18,528 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:14:18,529 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9503，是否在线：null，上次响应时长：5595ms
+2023-08-23 16:14:18,529 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:14:18,529 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9501，是否在线：true，上次响应时长：80ms
+2023-08-23 16:14:18,936 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:14:18,938 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:14:18,938 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9502，是否在线：true，上次响应时长：288ms
+2023-08-23 16:14:18,938 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9501，是否在线：true，上次响应时长：3169ms
+2023-08-23 16:14:19,169 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到1个DB任务
+2023-08-23 16:14:19,189 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,98] - 注册DB任务：449353357654589440
+2023-08-23 16:14:19,935 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AbstractScheduler - [AbstractScheduler.java,92] - 任务：449353357654589440不是最新版本，不会执行
+2023-08-23 16:14:19,936 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,173] - 任务449353357654589440不符合调度条件，移出调度队列
+2023-08-23 16:14:20,005 - WARN - [startSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,71] - 任务：449353340169949184-2023-08-23 16:14:20时间轮触发成功
+2023-08-23 16:14:20,008 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AbstractScheduler - [AbstractScheduler.java,92] - 任务：449353357654589440不是最新版本，不会执行
+2023-08-23 16:14:20,008 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,173] - 任务449353357654589440不符合调度条件，移出调度队列
+2023-08-23 16:14:21,401 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AbstractScheduler - [AbstractScheduler.java,73] - 获取DB任务：449353363704717312的锁成功
+2023-08-23 16:14:21,402 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,204] - 任务449353363704717312已经调度进时间轮
+2023-08-23 16:14:22,544 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:14:22,873 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:14:22,878 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:14:22,878 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9503，是否在线：true，上次响应时长：46ms
+2023-08-23 16:14:22,880 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:14:22,880 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9501，是否在线：true，上次响应时长：80ms
+2023-08-23 16:14:22,884 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:14:22,885 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9503，是否在线：true，上次响应时长：46ms
+2023-08-23 16:14:22,885 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:14:22,885 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9501，是否在线：true，上次响应时长：2ms
+2023-08-23 16:14:24,135 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:14:25,767 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:14:25,767 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:14:25,769 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9502，是否在线：true，上次响应时长：5ms
+2023-08-23 16:14:25,769 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9501，是否在线：true，上次响应时长：3169ms
+2023-08-23 16:14:25,774 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:14:25,774 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:14:25,774 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9502，是否在线：true，上次响应时长：5ms
+2023-08-23 16:14:25,774 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9501，是否在线：true，上次响应时长：2ms
+2023-08-23 16:14:26,004 - WARN - [startSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,71] - 任务：449353363704717312-2023-08-23 16:14:26时间轮触发成功
+2023-08-23 16:14:27,544 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:14:27,873 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:14:28,105 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:14:28,105 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9503，是否在线：true，上次响应时长：4ms
+2023-08-23 16:14:28,105 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9502，是否在线：true，上次响应时长：288ms
+2023-08-23 16:14:28,105 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:14:28,110 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:14:28,110 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9503，是否在线：true，上次响应时长：4ms
+2023-08-23 16:14:28,110 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9502，是否在线：true，上次响应时长：2ms
+2023-08-23 16:14:28,110 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:14:29,135 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:14:32,542 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:14:32,834 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:14:32,835 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9503，是否在线：true，上次响应时长：2ms
+2023-08-23 16:14:32,835 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:14:32,835 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9501，是否在线：true，上次响应时长：2ms
+2023-08-23 16:14:32,840 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:14:32,840 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9503，是否在线：true，上次响应时长：2ms
+2023-08-23 16:14:32,840 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:14:32,840 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9501，是否在线：true，上次响应时长：2ms
+2023-08-23 16:14:32,873 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:14:34,135 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:14:35,761 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:14:35,762 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:14:35,762 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9502，是否在线：true，上次响应时长：5ms
+2023-08-23 16:14:35,762 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9501，是否在线：true，上次响应时长：2ms
+2023-08-23 16:14:35,767 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:14:35,768 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:14:35,768 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9502，是否在线：true，上次响应时长：5ms
+2023-08-23 16:14:35,768 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9501，是否在线：true，上次响应时长：3ms
+2023-08-23 16:14:37,542 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:14:37,874 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:14:38,094 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:14:38,095 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9503，是否在线：true，上次响应时长：2ms
+2023-08-23 16:14:38,095 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9502，是否在线：true，上次响应时长：2ms
+2023-08-23 16:14:38,095 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:14:38,099 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:14:38,100 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9503，是否在线：true，上次响应时长：2ms
+2023-08-23 16:14:38,100 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9502，是否在线：true，上次响应时长：2ms
+2023-08-23 16:14:38,100 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:14:39,134 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:14:39,235 - WARN - [taskExecutorPool-fastPool-1-thread-1] com.jingge.autojob.skeleton.model.scheduler.AutoJobRunSuccessScheduler - [AutoJobRunSuccessScheduler.java,76] - 任务449353340169949184刷新成功，下次执行时间2023-08-23 16:14:46
+2023-08-23 16:14:41,004 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AbstractScheduler - [AbstractScheduler.java,92] - 任务：449353340169949184不是最新版本，不会执行
+2023-08-23 16:14:41,004 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,173] - 任务449353340169949184不符合调度条件，移出调度队列
+2023-08-23 16:14:42,543 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:14:42,834 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:14:42,835 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9503，是否在线：true，上次响应时长：2ms
+2023-08-23 16:14:42,835 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:14:42,835 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9501，是否在线：true，上次响应时长：2ms
+2023-08-23 16:14:42,838 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:14:42,839 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9503，是否在线：true，上次响应时长：2ms
+2023-08-23 16:14:42,839 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:14:42,839 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9501，是否在线：true，上次响应时长：2ms
+2023-08-23 16:14:42,872 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:14:44,134 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-23 16:14:44,745 - WARN - [taskExecutorPool-fastPool-1-thread-1] com.jingge.autojob.skeleton.model.scheduler.AutoJobRunSuccessScheduler - [AutoJobRunSuccessScheduler.java,76] - 任务449353363704717312刷新成功，下次执行时间2023-08-23 16:14:51
+2023-08-23 16:14:45,760 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:14:45,760 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:14:45,760 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9502，是否在线：true，上次响应时长：2ms
+2023-08-23 16:14:45,760 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9501，是否在线：true，上次响应时长：3ms
+2023-08-23 16:14:45,767 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,154] - 扫描完成，此时集群节点有：
+2023-08-23 16:14:45,767 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,161] - 节点地址：localhost，是否在线：true，上次响应时长：0ms
+2023-08-23 16:14:45,767 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9502，是否在线：true，上次响应时长：2ms
+2023-08-23 16:14:45,767 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,159] - 节点地址：10.206.199.112:9501，是否在线：true，上次响应时长：4ms
+2023-08-23 16:14:46,010 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AbstractScheduler - [AbstractScheduler.java,73] - 获取DB任务：449353363704717312的锁成功
+2023-08-23 16:14:46,011 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,204] - 任务449353363704717312已经调度进时间轮

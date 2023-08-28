@@ -1,0 +1,189 @@
+2023-08-24 15:28:44,145 - INFO - [main] com.jingge.autojob.skeleton.framework.config.AutoJobConfigHolder - [AutoJobConfigHolder.java,45] - AutoJob加载配置文件：auto-job.yml,auto-job.properties
+2023-08-24 15:28:45,336 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-24 15:28:45,351 - INFO - [RPCServerRunThread] com.jingge.autojob.skeleton.framework.network.server.RPCServer - [RPCServer.java,35] - RPC server beginning
+2023-08-24 15:28:46,260 - INFO - [main] com.jingge.autojob.skeleton.framework.config.AutoJobConfigHolder - [AutoJobConfigHolder.java,45] - AutoJob加载配置文件：auto-job.yml,auto-job.properties
+2023-08-24 15:28:47,106 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-24 15:28:47,110 - INFO - [RPCServerRunThread] com.jingge.autojob.skeleton.framework.network.server.RPCServer - [RPCServer.java,35] - RPC server beginning
+2023-08-24 15:28:49,503 - INFO - [RPCServerRunThread] com.jingge.autojob.skeleton.framework.network.server.RPCServer - [RPCServer.java,48] - RPC server start success on port 9501, ip 10.206.199.112
+2023-08-24 15:28:50,794 - INFO - [main] com.jingge.autojob.skeleton.framework.config.AutoJobConfigHolder - [AutoJobConfigHolder.java,45] - AutoJob加载配置文件：auto-job.yml,auto-job.properties
+2023-08-24 15:28:51,513 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9502离线1次
+2023-08-24 15:28:51,595 - ERROR - [nioEventLoopGroup-2-1] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-24 15:28:51,634 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-24 15:28:51,641 - INFO - [RPCServerRunThread] com.jingge.autojob.skeleton.framework.network.server.RPCServer - [RPCServer.java,35] - RPC server beginning
+2023-08-24 15:28:51,776 - INFO - [RPCServerRunThread] com.jingge.autojob.skeleton.framework.network.server.RPCServer - [RPCServer.java,48] - RPC server start success on port 9502, ip 10.206.199.112
+2023-08-24 15:28:52,610 - INFO - [main] com.jingge.autojob.skeleton.db.DataSourceHolder - [DataSourceHolder.java,41] - AutoJob未配置环境变量，本次读取druid.properties作为数据源配置
+2023-08-24 15:28:52,616 - INFO - [main] com.jingge.autojob.skeleton.db.DataSourceHolder - [DataSourceHolder.java,41] - AutoJob未配置环境变量，本次读取druid.properties作为数据源配置
+2023-08-24 15:28:53,707 - INFO - [main] com.alibaba.druid.pool.DruidDataSource - [DruidDataSource.java,972] - {dataSource-1} inited
+2023-08-24 15:28:53,726 - INFO - [main] com.jingge.autojob.logging.model.handler.AutoJobLogLoop - [AutoJobLogLoop.java,40] - log handler loop start
+2023-08-24 15:28:53,743 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,172] - ==================================>AutoJob starting
+2023-08-24 15:28:53,768 - INFO - [main] com.alibaba.druid.pool.DruidDataSource - [DruidDataSource.java,972] - {dataSource-1} inited
+2023-08-24 15:28:53,783 - INFO - [main] com.jingge.autojob.logging.model.handler.AutoJobLogLoop - [AutoJobLogLoop.java,40] - log handler loop start
+2023-08-24 15:28:53,796 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,172] - ==================================>AutoJob starting
+2023-08-24 15:28:53,796 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9503离线1次
+2023-08-24 15:28:53,825 - ERROR - [nioEventLoopGroup-2-1] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-24 15:28:54,404 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.handler.DBTaskLoader - [DBTaskLoader.java,46] - 任务449704321889140736-2023-08-24 15:29:01已提交到调度队列
+2023-08-24 15:28:54,412 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobAnnotationScheduler - [AutoJobAnnotationScheduler.java,54] - 注解调度器加载1个即将执行的任务到任务调度队列
+2023-08-24 15:28:54,412 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,196] - AutoJob环境变量：null
+2023-08-24 15:28:54,412 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,197] - AutoJob成功执行：4个加载器，成功加载7个调度器，共计用时：668ms
+2023-08-24 15:28:54,412 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,199] - ==================================>AutoJob started in 668 ms
+2023-08-24 15:28:54,447 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.handler.DBTaskLoader - [DBTaskLoader.java,46] - 任务449704322117128192-2023-08-24 15:29:01已提交到调度队列
+2023-08-24 15:28:54,454 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobAnnotationScheduler - [AutoJobAnnotationScheduler.java,54] - 注解调度器加载1个即将执行的任务到任务调度队列
+2023-08-24 15:28:54,454 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,196] - AutoJob环境变量：null
+2023-08-24 15:28:54,454 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,197] - AutoJob成功执行：4个加载器，成功加载7个调度器，共计用时：658ms
+2023-08-24 15:28:54,454 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,199] - ==================================>AutoJob started in 658 ms
+2023-08-24 15:28:55,159 - INFO - [main] com.jingge.autojob.skeleton.db.DataSourceHolder - [DataSourceHolder.java,41] - AutoJob未配置环境变量，本次读取druid.properties作为数据源配置
+2023-08-24 15:28:55,274 - INFO - [RPCServerRunThread] com.jingge.autojob.skeleton.framework.network.server.RPCServer - [RPCServer.java,48] - RPC server start success on port 9503, ip 10.206.199.112
+2023-08-24 15:28:55,840 - INFO - [main] com.alibaba.druid.pool.DruidDataSource - [DruidDataSource.java,972] - {dataSource-1} inited
+2023-08-24 15:28:55,847 - INFO - [main] com.jingge.autojob.logging.model.handler.AutoJobLogLoop - [AutoJobLogLoop.java,40] - log handler loop start
+2023-08-24 15:28:55,866 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,172] - ==================================>AutoJob starting
+2023-08-24 15:28:56,172 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.handler.DBTaskLoader - [DBTaskLoader.java,46] - 任务449704329451450368-2023-08-24 15:29:03已提交到调度队列
+2023-08-24 15:28:56,174 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobAnnotationScheduler - [AutoJobAnnotationScheduler.java,54] - 注解调度器加载1个即将执行的任务到任务调度队列
+2023-08-24 15:28:56,174 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,196] - AutoJob环境变量：null
+2023-08-24 15:28:56,175 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,197] - AutoJob成功执行：4个加载器，成功加载7个调度器，共计用时：308ms
+2023-08-24 15:28:56,175 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,199] - ==================================>AutoJob started in 309 ms
+2023-08-24 15:29:06,258 - INFO - [taskExecutorPool-fastPool-1-thread-2] com.jingge.spring.job.Jobs - [AutoJobLogHelper.java,139] - $Actual-Location - [Jobs.java:52]$ - 参数：hello
+2023-08-24 15:29:06,258 - INFO - [taskExecutorPool-fastPool-1-thread-2] com.jingge.spring.job.Jobs - [AutoJobLogHelper.java,139] - $Actual-Location - [Jobs.java:53]$ - 总分片：null
+2023-08-24 15:29:06,258 - INFO - [taskExecutorPool-fastPool-1-thread-2] com.jingge.spring.job.Jobs - [AutoJobLogHelper.java,139] - $Actual-Location - [Jobs.java:54]$ - 当前分片：null
+2023-08-24 15:29:06,258 - INFO - [taskExecutorPool-fastPool-1-thread-2] com.jingge.spring.job.Jobs - [AutoJobLogHelper.java,139] - $Actual-Location - [Jobs.java:55]$ - 本次执行上下文参数：30
+2023-08-24 15:29:06,258 - INFO - [taskExecutorPool-fastPool-1-thread-2] com.jingge.spring.job.Jobs - [AutoJobLogHelper.java,139] - $Actual-Location - [Jobs.java:56]$ - 当前调度记录ID：449704371918778368
+2023-08-24 15:29:06,259 - INFO - [taskExecutorPool-fastPool-1-thread-2] com.jingge.spring.job.Jobs - [AutoJobLogHelper.java,139] - $Actual-Location - [Jobs.java:57]$ - 当前任务ID：1
+2023-08-24 15:29:06,259 - INFO - [taskExecutorPool-fastPool-1-thread-2] com.jingge.spring.job.Jobs - [AutoJobLogHelper.java,139] - $Actual-Location - [Jobs.java:58]$ - 本次调度启动时间：292278994-08-17 15:12:55
+2023-08-24 15:29:06,259 - INFO - [taskExecutorPool-fastPool-1-thread-2] com.jingge.spring.job.Jobs - [AutoJobLogHelper.java,139] - $Actual-Location - [Jobs.java:59]$ - 当前任务类型：Memory
+2023-08-24 15:29:06,260 - INFO - [taskExecutorPool-fastPool-1-thread-2] com.jingge.spring.job.Jobs - [AutoJobLogHelper.java,139] - $Actual-Location - [Jobs.java:64]$ - 当前栈深：1
+2023-08-24 15:29:16,226 - INFO - [taskExecutorPool-fastPool-1-thread-4] com.jingge.spring.job.Jobs - [AutoJobLogHelper.java,139] - $Actual-Location - [Jobs.java:52]$ - 参数：hello
+2023-08-24 15:29:16,226 - INFO - [taskExecutorPool-fastPool-1-thread-4] com.jingge.spring.job.Jobs - [AutoJobLogHelper.java,139] - $Actual-Location - [Jobs.java:53]$ - 总分片：null
+2023-08-24 15:29:16,227 - INFO - [taskExecutorPool-fastPool-1-thread-4] com.jingge.spring.job.Jobs - [AutoJobLogHelper.java,139] - $Actual-Location - [Jobs.java:54]$ - 当前分片：null
+2023-08-24 15:29:16,228 - INFO - [taskExecutorPool-fastPool-1-thread-4] com.jingge.spring.job.Jobs - [AutoJobLogHelper.java,139] - $Actual-Location - [Jobs.java:55]$ - 本次执行上下文参数：7
+2023-08-24 15:29:16,228 - INFO - [taskExecutorPool-fastPool-1-thread-4] com.jingge.spring.job.Jobs - [AutoJobLogHelper.java,139] - $Actual-Location - [Jobs.java:56]$ - 当前调度记录ID：449704413731794944
+2023-08-24 15:29:16,229 - INFO - [taskExecutorPool-fastPool-1-thread-4] com.jingge.spring.job.Jobs - [AutoJobLogHelper.java,139] - $Actual-Location - [Jobs.java:57]$ - 当前任务ID：1
+2023-08-24 15:29:16,229 - INFO - [taskExecutorPool-fastPool-1-thread-4] com.jingge.spring.job.Jobs - [AutoJobLogHelper.java,139] - $Actual-Location - [Jobs.java:58]$ - 本次调度启动时间：292278994-08-17 15:12:55
+2023-08-24 15:29:16,230 - INFO - [taskExecutorPool-fastPool-1-thread-4] com.jingge.spring.job.Jobs - [AutoJobLogHelper.java,139] - $Actual-Location - [Jobs.java:59]$ - 当前任务类型：Memory
+2023-08-24 15:29:16,230 - INFO - [taskExecutorPool-fastPool-1-thread-4] com.jingge.spring.job.Jobs - [AutoJobLogHelper.java,139] - $Actual-Location - [Jobs.java:64]$ - 当前栈深：1
+2023-08-24 15:54:51,029 - INFO - [main] com.jingge.autojob.skeleton.framework.config.AutoJobConfigHolder - [AutoJobConfigHolder.java,45] - AutoJob加载配置文件：auto-job.yml,auto-job.properties
+2023-08-24 15:54:53,428 - INFO - [main] com.jingge.autojob.skeleton.db.DataSourceHolder - [DataSourceHolder.java,41] - AutoJob未配置环境变量，本次读取druid.properties作为数据源配置
+2023-08-24 15:54:54,228 - INFO - [main] com.alibaba.druid.pool.DruidDataSource - [DruidDataSource.java,972] - {dataSource-1} inited
+2023-08-24 15:54:54,244 - INFO - [main] com.jingge.autojob.logging.model.handler.AutoJobLogLoop - [AutoJobLogLoop.java,40] - log handler loop start
+2023-08-24 15:54:54,259 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,172] - ==================================>AutoJob starting
+2023-08-24 15:54:54,447 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobAnnotationScheduler - [AutoJobAnnotationScheduler.java,54] - 注解调度器加载0个即将执行的任务到任务调度队列
+2023-08-24 15:54:54,447 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,196] - AutoJob环境变量：null
+2023-08-24 15:54:54,448 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,197] - AutoJob成功执行：4个加载器，成功加载7个调度器，共计用时：189ms
+2023-08-24 15:54:54,448 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,199] - ==================================>AutoJob started in 189 ms
+2023-08-24 15:54:55,967 - WARN - [main] com.jingge.autojob.skeleton.model.tq.AutoJobTaskQueue - [AutoJobTaskQueue.java,129] - 任务449710865565388800不允许被放入调度队列，请检查任务相关配置
+2023-08-24 15:56:04,001 - INFO - [main] com.jingge.autojob.skeleton.framework.config.AutoJobConfigHolder - [AutoJobConfigHolder.java,45] - AutoJob加载配置文件：auto-job.yml,auto-job.properties
+2023-08-24 15:56:06,202 - INFO - [main] com.jingge.autojob.skeleton.db.DataSourceHolder - [DataSourceHolder.java,41] - AutoJob未配置环境变量，本次读取druid.properties作为数据源配置
+2023-08-24 15:56:06,833 - INFO - [main] com.alibaba.druid.pool.DruidDataSource - [DruidDataSource.java,972] - {dataSource-1} inited
+2023-08-24 15:56:06,840 - INFO - [main] com.jingge.autojob.logging.model.handler.AutoJobLogLoop - [AutoJobLogLoop.java,40] - log handler loop start
+2023-08-24 15:56:06,857 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,172] - ==================================>AutoJob starting
+2023-08-24 15:56:06,994 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobAnnotationScheduler - [AutoJobAnnotationScheduler.java,54] - 注解调度器加载0个即将执行的任务到任务调度队列
+2023-08-24 15:56:06,994 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,196] - AutoJob环境变量：null
+2023-08-24 15:56:06,995 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,197] - AutoJob成功执行：4个加载器，成功加载7个调度器，共计用时：137ms
+2023-08-24 15:56:06,995 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,199] - ==================================>AutoJob started in 138 ms
+2023-08-24 15:56:08,233 - WARN - [main] com.jingge.autojob.skeleton.model.tq.AutoJobTaskQueue - [AutoJobTaskQueue.java,129] - 任务449711169834098688不允许被放入调度队列，请检查任务相关配置
+2023-08-24 15:57:02,509 - INFO - [main] com.jingge.autojob.skeleton.framework.config.AutoJobConfigHolder - [AutoJobConfigHolder.java,45] - AutoJob加载配置文件：auto-job.yml,auto-job.properties
+2023-08-24 15:57:04,980 - INFO - [main] com.jingge.autojob.skeleton.db.DataSourceHolder - [DataSourceHolder.java,41] - AutoJob未配置环境变量，本次读取druid.properties作为数据源配置
+2023-08-24 15:57:05,812 - INFO - [main] com.alibaba.druid.pool.DruidDataSource - [DruidDataSource.java,972] - {dataSource-1} inited
+2023-08-24 15:57:05,819 - INFO - [main] com.jingge.autojob.logging.model.handler.AutoJobLogLoop - [AutoJobLogLoop.java,40] - log handler loop start
+2023-08-24 15:57:05,826 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,172] - ==================================>AutoJob starting
+2023-08-24 15:57:05,950 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobAnnotationScheduler - [AutoJobAnnotationScheduler.java,54] - 注解调度器加载0个即将执行的任务到任务调度队列
+2023-08-24 15:57:05,950 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,196] - AutoJob环境变量：null
+2023-08-24 15:57:05,950 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,197] - AutoJob成功执行：4个加载器，成功加载7个调度器，共计用时：124ms
+2023-08-24 15:57:05,951 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,199] - ==================================>AutoJob started in 124 ms
+2023-08-24 15:58:07,475 - INFO - [main] com.jingge.autojob.skeleton.framework.config.AutoJobConfigHolder - [AutoJobConfigHolder.java,45] - AutoJob加载配置文件：auto-job.yml,auto-job.properties
+2023-08-24 15:58:09,620 - INFO - [main] com.jingge.autojob.skeleton.db.DataSourceHolder - [DataSourceHolder.java,41] - AutoJob未配置环境变量，本次读取druid.properties作为数据源配置
+2023-08-24 15:58:10,266 - INFO - [main] com.alibaba.druid.pool.DruidDataSource - [DruidDataSource.java,972] - {dataSource-1} inited
+2023-08-24 15:58:10,308 - INFO - [main] com.jingge.autojob.logging.model.handler.AutoJobLogLoop - [AutoJobLogLoop.java,40] - log handler loop start
+2023-08-24 15:58:10,324 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,172] - ==================================>AutoJob starting
+2023-08-24 15:58:10,456 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobAnnotationScheduler - [AutoJobAnnotationScheduler.java,54] - 注解调度器加载0个即将执行的任务到任务调度队列
+2023-08-24 15:58:10,457 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,196] - AutoJob环境变量：null
+2023-08-24 15:58:10,457 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,197] - AutoJob成功执行：4个加载器，成功加载7个调度器，共计用时：133ms
+2023-08-24 15:58:10,457 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,199] - ==================================>AutoJob started in 133 ms
+2023-08-24 16:06:14,960 - INFO - [main] com.jingge.autojob.skeleton.framework.config.AutoJobConfigHolder - [AutoJobConfigHolder.java,45] - AutoJob加载配置文件：auto-job.yml,auto-job.properties
+2023-08-24 16:06:17,726 - INFO - [main] com.jingge.autojob.skeleton.db.DataSourceHolder - [DataSourceHolder.java,41] - AutoJob未配置环境变量，本次读取druid.properties作为数据源配置
+2023-08-24 16:06:18,555 - INFO - [main] com.alibaba.druid.pool.DruidDataSource - [DruidDataSource.java,972] - {dataSource-1} inited
+2023-08-24 16:06:18,600 - INFO - [main] com.jingge.autojob.logging.model.handler.AutoJobLogLoop - [AutoJobLogLoop.java,40] - log handler loop start
+2023-08-24 16:06:18,622 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,172] - ==================================>AutoJob starting
+2023-08-24 16:06:18,804 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobAnnotationScheduler - [AutoJobAnnotationScheduler.java,54] - 注解调度器加载0个即将执行的任务到任务调度队列
+2023-08-24 16:06:18,804 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,196] - AutoJob环境变量：null
+2023-08-24 16:06:18,804 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,197] - AutoJob成功执行：4个加载器，成功加载7个调度器，共计用时：182ms
+2023-08-24 16:06:18,804 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,199] - ==================================>AutoJob started in 182 ms
+2023-08-24 16:16:28,361 - INFO - [main] com.jingge.autojob.skeleton.framework.config.AutoJobConfigHolder - [AutoJobConfigHolder.java,45] - AutoJob加载配置文件：auto-job.yml,auto-job.properties
+2023-08-24 16:16:31,170 - INFO - [main] com.jingge.autojob.skeleton.db.DataSourceHolder - [DataSourceHolder.java,41] - AutoJob未配置环境变量，本次读取druid.properties作为数据源配置
+2023-08-24 16:16:31,957 - INFO - [main] com.alibaba.druid.pool.DruidDataSource - [DruidDataSource.java,972] - {dataSource-1} inited
+2023-08-24 16:16:32,006 - INFO - [main] com.jingge.autojob.logging.model.handler.AutoJobLogLoop - [AutoJobLogLoop.java,40] - log handler loop start
+2023-08-24 16:16:32,017 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,172] - ==================================>AutoJob starting
+2023-08-24 16:16:32,179 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobAnnotationScheduler - [AutoJobAnnotationScheduler.java,54] - 注解调度器加载0个即将执行的任务到任务调度队列
+2023-08-24 16:16:32,179 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,196] - AutoJob环境变量：null
+2023-08-24 16:16:32,179 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,197] - AutoJob成功执行：4个加载器，成功加载7个调度器，共计用时：162ms
+2023-08-24 16:16:32,179 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,199] - ==================================>AutoJob started in 162 ms
+2023-08-24 16:17:07,957 - INFO - [main] com.jingge.autojob.skeleton.framework.config.AutoJobConfigHolder - [AutoJobConfigHolder.java,45] - AutoJob加载配置文件：auto-job.yml,auto-job.properties
+2023-08-24 16:17:10,783 - INFO - [main] com.jingge.autojob.skeleton.db.DataSourceHolder - [DataSourceHolder.java,41] - AutoJob未配置环境变量，本次读取druid.properties作为数据源配置
+2023-08-24 16:17:11,816 - INFO - [main] com.alibaba.druid.pool.DruidDataSource - [DruidDataSource.java,972] - {dataSource-1} inited
+2023-08-24 16:17:11,826 - INFO - [main] com.jingge.autojob.logging.model.handler.AutoJobLogLoop - [AutoJobLogLoop.java,40] - log handler loop start
+2023-08-24 16:17:11,845 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,172] - ==================================>AutoJob starting
+2023-08-24 16:17:16,921 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobAnnotationScheduler - [AutoJobAnnotationScheduler.java,54] - 注解调度器加载0个即将执行的任务到任务调度队列
+2023-08-24 16:17:16,922 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,196] - AutoJob环境变量：null
+2023-08-24 16:17:16,922 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,197] - AutoJob成功执行：4个加载器，成功加载7个调度器，共计用时：5077ms
+2023-08-24 16:17:16,922 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,199] - ==================================>AutoJob started in 5077 ms
+2023-08-24 16:39:10,276 - INFO - [main] com.jingge.autojob.skeleton.framework.config.AutoJobConfigHolder - [AutoJobConfigHolder.java,45] - AutoJob加载配置文件：auto-job.yml,auto-job.properties
+2023-08-24 16:39:12,624 - INFO - [main] com.jingge.autojob.skeleton.db.DataSourceHolder - [DataSourceHolder.java,41] - AutoJob未配置环境变量，本次读取druid.properties作为数据源配置
+2023-08-24 16:39:13,589 - INFO - [main] com.alibaba.druid.pool.DruidDataSource - [DruidDataSource.java,972] - {dataSource-1} inited
+2023-08-24 16:39:13,597 - INFO - [main] com.jingge.autojob.logging.model.handler.AutoJobLogLoop - [AutoJobLogLoop.java,40] - log handler loop start
+2023-08-24 16:39:13,614 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,172] - ==================================>AutoJob starting
+2023-08-24 16:39:13,745 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobAnnotationScheduler - [AutoJobAnnotationScheduler.java,54] - 注解调度器加载0个即将执行的任务到任务调度队列
+2023-08-24 16:39:13,745 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,196] - AutoJob环境变量：null
+2023-08-24 16:39:13,745 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,197] - AutoJob成功执行：4个加载器，成功加载7个调度器，共计用时：131ms
+2023-08-24 16:39:13,746 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,199] - ==================================>AutoJob started in 132 ms
+2023-08-24 16:40:09,952 - INFO - [main] com.jingge.autojob.skeleton.framework.config.AutoJobConfigHolder - [AutoJobConfigHolder.java,45] - AutoJob加载配置文件：auto-job.yml,auto-job.properties
+2023-08-24 16:40:12,168 - INFO - [main] com.jingge.autojob.skeleton.db.DataSourceHolder - [DataSourceHolder.java,41] - AutoJob未配置环境变量，本次读取druid.properties作为数据源配置
+2023-08-24 16:40:13,046 - INFO - [main] com.alibaba.druid.pool.DruidDataSource - [DruidDataSource.java,972] - {dataSource-1} inited
+2023-08-24 16:40:13,085 - INFO - [main] com.jingge.autojob.logging.model.handler.AutoJobLogLoop - [AutoJobLogLoop.java,40] - log handler loop start
+2023-08-24 16:40:13,098 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,172] - ==================================>AutoJob starting
+2023-08-24 16:40:13,227 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobAnnotationScheduler - [AutoJobAnnotationScheduler.java,54] - 注解调度器加载0个即将执行的任务到任务调度队列
+2023-08-24 16:40:13,228 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,196] - AutoJob环境变量：null
+2023-08-24 16:40:13,228 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,197] - AutoJob成功执行：4个加载器，成功加载7个调度器，共计用时：130ms
+2023-08-24 16:40:13,228 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,199] - ==================================>AutoJob started in 130 ms
+2023-08-24 16:41:13,403 - INFO - [main] com.jingge.autojob.skeleton.framework.config.AutoJobConfigHolder - [AutoJobConfigHolder.java,45] - AutoJob加载配置文件：auto-job.yml,auto-job.properties
+2023-08-24 16:41:15,566 - INFO - [main] com.jingge.autojob.skeleton.db.DataSourceHolder - [DataSourceHolder.java,41] - AutoJob未配置环境变量，本次读取druid.properties作为数据源配置
+2023-08-24 16:41:16,509 - INFO - [main] com.alibaba.druid.pool.DruidDataSource - [DruidDataSource.java,972] - {dataSource-1} inited
+2023-08-24 16:41:16,517 - INFO - [main] com.jingge.autojob.logging.model.handler.AutoJobLogLoop - [AutoJobLogLoop.java,40] - log handler loop start
+2023-08-24 16:41:16,534 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,172] - ==================================>AutoJob starting
+2023-08-24 16:41:16,664 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobAnnotationScheduler - [AutoJobAnnotationScheduler.java,54] - 注解调度器加载0个即将执行的任务到任务调度队列
+2023-08-24 16:41:16,664 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,196] - AutoJob环境变量：null
+2023-08-24 16:41:16,665 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,197] - AutoJob成功执行：4个加载器，成功加载7个调度器，共计用时：130ms
+2023-08-24 16:41:16,665 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,199] - ==================================>AutoJob started in 131 ms
+2023-08-24 16:43:01,840 - INFO - [main] com.jingge.autojob.skeleton.framework.config.AutoJobConfigHolder - [AutoJobConfigHolder.java,45] - AutoJob加载配置文件：auto-job.yml,auto-job.properties
+2023-08-24 16:43:04,116 - INFO - [main] com.jingge.autojob.skeleton.db.DataSourceHolder - [DataSourceHolder.java,41] - AutoJob未配置环境变量，本次读取druid.properties作为数据源配置
+2023-08-24 16:43:04,889 - INFO - [main] com.alibaba.druid.pool.DruidDataSource - [DruidDataSource.java,972] - {dataSource-1} inited
+2023-08-24 16:43:04,898 - INFO - [main] com.jingge.autojob.logging.model.handler.AutoJobLogLoop - [AutoJobLogLoop.java,40] - log handler loop start
+2023-08-24 16:43:04,912 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,172] - ==================================>AutoJob starting
+2023-08-24 16:43:05,044 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobAnnotationScheduler - [AutoJobAnnotationScheduler.java,54] - 注解调度器加载0个即将执行的任务到任务调度队列
+2023-08-24 16:43:05,045 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,196] - AutoJob环境变量：null
+2023-08-24 16:43:05,045 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,197] - AutoJob成功执行：4个加载器，成功加载7个调度器，共计用时：133ms
+2023-08-24 16:43:05,045 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,199] - ==================================>AutoJob started in 133 ms
+2023-08-24 16:43:39,757 - INFO - [main] com.jingge.autojob.skeleton.framework.config.AutoJobConfigHolder - [AutoJobConfigHolder.java,45] - AutoJob加载配置文件：auto-job.yml,auto-job.properties
+2023-08-24 16:43:41,767 - INFO - [main] com.jingge.autojob.skeleton.db.DataSourceHolder - [DataSourceHolder.java,41] - AutoJob未配置环境变量，本次读取druid.properties作为数据源配置
+2023-08-24 16:43:42,619 - INFO - [main] com.alibaba.druid.pool.DruidDataSource - [DruidDataSource.java,972] - {dataSource-1} inited
+2023-08-24 16:43:42,672 - INFO - [main] com.jingge.autojob.logging.model.handler.AutoJobLogLoop - [AutoJobLogLoop.java,40] - log handler loop start
+2023-08-24 16:43:42,683 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,172] - ==================================>AutoJob starting
+2023-08-24 16:43:42,810 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobAnnotationScheduler - [AutoJobAnnotationScheduler.java,54] - 注解调度器加载0个即将执行的任务到任务调度队列
+2023-08-24 16:43:42,810 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,196] - AutoJob环境变量：null
+2023-08-24 16:43:42,810 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,197] - AutoJob成功执行：4个加载器，成功加载7个调度器，共计用时：127ms
+2023-08-24 16:43:42,810 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,199] - ==================================>AutoJob started in 127 ms
+2023-08-24 17:16:20,182 - INFO - [main] com.jingge.autojob.skeleton.framework.config.AutoJobConfigHolder - [AutoJobConfigHolder.java,45] - AutoJob加载配置文件：auto-job.yml,auto-job.properties
+2023-08-24 17:16:22,425 - INFO - [main] com.jingge.autojob.skeleton.db.DataSourceHolder - [DataSourceHolder.java,41] - AutoJob未配置环境变量，本次读取druid.properties作为数据源配置
+2023-08-24 17:16:22,962 - INFO - [main] com.alibaba.druid.pool.DruidDataSource - [DruidDataSource.java,972] - {dataSource-1} inited
+2023-08-24 17:16:23,003 - INFO - [main] com.jingge.autojob.logging.model.handler.AutoJobLogLoop - [AutoJobLogLoop.java,40] - log handler loop start
+2023-08-24 17:16:23,014 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,172] - ==================================>AutoJob starting
+2023-08-24 17:16:23,130 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobAnnotationScheduler - [AutoJobAnnotationScheduler.java,54] - 注解调度器加载0个即将执行的任务到任务调度队列
+2023-08-24 17:16:23,130 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,196] - AutoJob环境变量：null
+2023-08-24 17:16:23,130 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,197] - AutoJob成功执行：4个加载器，成功加载7个调度器，共计用时：116ms
+2023-08-24 17:16:23,130 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,199] - ==================================>AutoJob started in 116 ms
+2023-08-24 17:16:50,204 - INFO - [main] com.jingge.autojob.skeleton.framework.config.AutoJobConfigHolder - [AutoJobConfigHolder.java,45] - AutoJob加载配置文件：auto-job.yml,auto-job.properties
+2023-08-24 17:16:52,285 - INFO - [main] com.jingge.autojob.skeleton.db.DataSourceHolder - [DataSourceHolder.java,41] - AutoJob未配置环境变量，本次读取druid.properties作为数据源配置
+2023-08-24 17:16:52,949 - INFO - [main] com.alibaba.druid.pool.DruidDataSource - [DruidDataSource.java,972] - {dataSource-1} inited
+2023-08-24 17:16:52,957 - INFO - [main] com.jingge.autojob.logging.model.handler.AutoJobLogLoop - [AutoJobLogLoop.java,40] - log handler loop start
+2023-08-24 17:16:52,975 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,172] - ==================================>AutoJob starting
+2023-08-24 17:16:53,100 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobAnnotationScheduler - [AutoJobAnnotationScheduler.java,54] - 注解调度器加载0个即将执行的任务到任务调度队列
+2023-08-24 17:16:53,101 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,196] - AutoJob环境变量：null
+2023-08-24 17:16:53,101 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,197] - AutoJob成功执行：4个加载器，成功加载7个调度器，共计用时：126ms
+2023-08-24 17:16:53,101 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,199] - ==================================>AutoJob started in 126 ms

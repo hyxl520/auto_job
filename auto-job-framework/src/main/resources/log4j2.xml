@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 配置LoggerConfig，即Appenders的日志级别为WARN -->
+<Configuration status="WARN">
+    <properties>
+        <property name="log.path">logs</property>
+        <property name="log.pattern">%d{yyyy-MM-dd HH:mm:ss,SSS} - %p - [%t] %c - [%F,%L] - %m%n</property>
+    </properties>
+    <!-- Appenders支持配置多个Appender，支持向不同的目标输送日志，本例为配置向控制台输出 -->
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${log.pattern}"/>
+        </Console>
+
+        <RollingFile name="file_info"
+                     fileName="${log.path}/system-info.log"
+                     filePattern="${log.path}/system-info.%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="${log.pattern}"/>
+            <Filters>
+                <ThresholdFilter level="INFO" onMatch="ACCEPT"
+                                 onMismatch="DENY"/>
+            </Filters>
+            <Policies>
+                <!--每天进行回滚-->
+                <TimeBasedTriggeringPolicy interval="1"/>
+                <SizeBasedTriggeringPolicy size="20MB"/>
+            </Policies>
+        </RollingFile>
+
+        <RollingFile name="file_warn"
+                     fileName="${log.path}/system-warn.log"
+                     filePattern="${log.path}/system-warn.%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="${log.pattern}"/>
+            <Filters>
+                <ThresholdFilter level="WARN" onMatch="ACCEPT"
+                                 onMismatch="DENY"/>
+            </Filters>
+            <Policies>
+                <!--每天进行回滚-->
+                <TimeBasedTriggeringPolicy interval="1"/>
+                <SizeBasedTriggeringPolicy size="20MB"/>
+            </Policies>
+        </RollingFile>
+
+        <RollingFile name="file_error"
+                     fileName="${log.path}/system-error.log"
+                     filePattern="${log.path}/system-error.%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="${log.pattern}"/>
+            <Filters>
+                <ThresholdFilter level="ERROR" onMatch="ACCEPT"
+                                 onMismatch="DENY"/>
+            </Filters>
+            <Policies>
+                <!--每天进行回滚-->
+                <TimeBasedTriggeringPolicy interval="1"/>
+                <SizeBasedTriggeringPolicy size="20MB"/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+    <!-- Loggers支持配置多个Logger，可引用不同的目标Appender，也可根据业务需求定制特定要求的Appender -->
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="file_info"/>
+            <AppenderRef ref="file_error"/>
+            <AppenderRef ref="file_warn"/>
+        </Root>
+        <logger name="org.reflections" level="WARN"/>
+    </Loggers>
+</Configuration>

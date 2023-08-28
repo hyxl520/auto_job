@@ -1,0 +1,133 @@
+# 动态任务调度框架配置V0.9.6
+autoJob:
+  debug:
+    enable: true
+  context:
+    # 调度队列长度，将要执行的任务将会放入调度队列，当时间段内并发任务量很大时建议将此值设置为较大的值
+    schedulingQueue:
+      length: 1000
+    memoryContainer:
+      length: 200
+      cleanStrategy: KEEP_FINISHED
+    running:
+      # 是否开启任务运行堆栈
+      stackTrace:
+        enable: true
+        depth: 16
+  annotation:
+    filter:
+      enable: true
+      classPattern: "**.**"
+    enable: true
+    defaultDelayTime: 30
+  # 数据库类型，目前支持MySQL、PostgreSQL、Oracle、DamengSQL，理论支持SQL标准的所有数据库
+  database:
+    type: mysql
+  # 执行器相关配置
+  executor:
+    fastPool:
+      update:
+        # 是否启用快池的线程资源动态调配
+        enable: true
+        # 允许任务的最大响应时间：秒，当开启动态调配时有效
+        allowTaskMaximumResponseTime: 1
+        # 快池流量监控的周期：秒
+        trafficUpdateCycle: 5
+        adjustedThreshold: 0.2
+      coreThread:
+        initial: 5
+        min: 5
+        max: 50
+        keepAliveTime: 60
+      maxThread:
+        initial: 5
+        min: 10
+        max: 50
+    slowPool:
+      update:
+        enable: true
+        allowTaskMaximumResponseTime: 1
+        trafficUpdateCycel: 5
+        adjustedThreshold: 0.5
+      coreThread:
+        initial: 10
+        min: 5
+        max: 50
+        keepAliveTime: 60
+      maxThread:
+        initial: 20
+        min: 10
+        max: 50
+    relegation:
+      threshold: 3
+  register:
+    filter:
+      enable: true
+      classPath: "**.job.**"
+  scheduler:
+    finished:
+      error:
+        retry:
+          # 重新策略 LOCAL_RETRY-本机重试 FAILOVER-故障转移（开启集群时有效）
+          strategy: FAILOVER
+          enable: true
+          retryCount: 5
+          interval: 0.5
+  emailAlert:
+    enable: false
+    # 邮箱服务器类型，目前仅支持SMTP
+    serverType: SMTP
+    # 邮件发送间隔：毫秒
+    interval: 5000
+    auth:
+      sender: "1158055613@qq.com"
+      receiver: "XXXXXX@qq.com"
+      token: "XXXXXX"
+      type: QQMail
+      customize:
+        customMailServerAddress:
+        customMailServerPort:
+    config:
+      taskRunError: true
+      taskRefuseHandle: true
+      clusterOpenProtectedMode: true
+      clusterCloseProtectedMode: true
+  logging:
+    strategy:
+      saveWhenBufferReachSize: 10
+      saveWhenOverTime: 10
+    scriptTask:
+      encoding: GBK
+    taskLog:
+      memory:
+        enable: false
+        length: 1000
+        defaultExpireTime: 3
+    runLog:
+      memory:
+        enable: false
+        length: 1000
+        defaultExpireTime: 3
+  cluster:
+    enable: false
+    port: 9501
+    auth:
+      enable: true
+      publicKey: "autoJob!@#=123.#"
+      token: "hello"
+    client:
+      remoteNodeAddress: "localhost:9502"
+      pool:
+        size: 10
+        getTimeout: 1
+        getDataTimeout: 3
+        connectTimeout: 2
+        keepAliveTimeout: 10
+      allowMaxJetLag: 5000
+      nodeSync:
+        cycle: 10
+        offLineThreshold: 3
+    config:
+      protectedMode:
+        enable: false
+        threshold: 0.5

@@ -1,0 +1,9 @@
+2023-08-24 15:28:45,336 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-24 15:28:47,106 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-24 15:28:51,513 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9502离线1次
+2023-08-24 15:28:51,595 - ERROR - [nioEventLoopGroup-2-1] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-24 15:28:51,634 - WARN - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobBootstrap - [AutoJobBootstrap.java,207] - 系统已开启集群模式，将禁用注解式内存任务（不包含子任务），防止多个节点执行多个任务实例
+2023-08-24 15:28:53,796 - WARN - [clusterManagerDaemonThread] com.jingge.autojob.skeleton.cluster.model.AutoJobClusterManager - [AutoJobClusterManager.java,127] - 节点：10.206.199.112:9503离线1次
+2023-08-24 15:28:53,825 - ERROR - [nioEventLoopGroup-2-1] com.jingge.autojob.skeleton.framework.network.client.RPCClient - [RPCClient.java,72] - connect rpc server 10.206.199.112 failed. 
+2023-08-24 15:54:55,967 - WARN - [main] com.jingge.autojob.skeleton.model.tq.AutoJobTaskQueue - [AutoJobTaskQueue.java,129] - 任务449710865565388800不允许被放入调度队列，请检查任务相关配置
+2023-08-24 15:56:08,233 - WARN - [main] com.jingge.autojob.skeleton.model.tq.AutoJobTaskQueue - [AutoJobTaskQueue.java,129] - 任务449711169834098688不允许被放入调度队列，请检查任务相关配置

@@ -1,0 +1,242 @@
+2023-08-25 14:45:11,752 - INFO - [main] com.jingge.autojob.skeleton.framework.config.AutoJobConfigHolder - [AutoJobConfigHolder.java,45] - AutoJob加载配置文件：auto-job.yml,auto-job.properties
+2023-08-25 14:45:18,567 - INFO - [main] com.jingge.autojob.skeleton.db.DataSourceHolder - [DataSourceHolder.java,41] - AutoJob未配置环境变量，本次读取druid.properties作为数据源配置
+2023-08-25 14:45:19,913 - INFO - [main] com.alibaba.druid.pool.DruidDataSource - [DruidDataSource.java,972] - {dataSource-1} inited
+2023-08-25 14:45:19,925 - INFO - [main] com.jingge.autojob.logging.model.handler.AutoJobLogLoop - [AutoJobLogLoop.java,40] - log handler loop start
+2023-08-25 14:45:19,947 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,172] - ==================================>AutoJob starting
+2023-08-25 14:45:20,493 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.handler.DBTaskLoader - [DBTaskLoader.java,46] - 任务450055746227216384-2023-08-25 14:45:27已提交到调度队列
+2023-08-25 14:45:22,435 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobAnnotationScheduler - [AutoJobAnnotationScheduler.java,54] - 注解调度器加载1个即将执行的任务到任务调度队列
+2023-08-25 14:45:22,435 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,196] - AutoJob环境变量：null
+2023-08-25 14:45:22,435 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,197] - AutoJob成功执行：4个加载器，成功加载7个调度器，共计用时：2488ms
+2023-08-25 14:45:22,435 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,199] - ==================================>AutoJob started in 2488 ms
+2023-08-25 14:46:00,004 - INFO - [taskExecutorPool-fastPool-1-thread-5] com.jingge.autojob.skeleton.framework.task.AutoJobTemplate - [AutoJobLogHelper.java,139] - $Actual-Location - [TemplateJob.java:21]$ - 测试一下
+2023-08-25 14:46:00,004 - INFO - [taskExecutorPool-fastPool-1-thread-4] com.jingge.autojob.skeleton.framework.task.AutoJobTemplate - [AutoJobLogHelper.java,139] - $Actual-Location - [TemplateJob.java:21]$ - 测试一下
+2023-08-25 14:46:00,004 - INFO - [taskExecutorPool-fastPool-1-thread-2] com.jingge.autojob.skeleton.framework.task.AutoJobTemplate - [AutoJobLogHelper.java,139] - $Actual-Location - [TemplateJob.java:21]$ - 测试一下
+2023-08-25 14:46:00,004 - INFO - [taskExecutorPool-fastPool-1-thread-1] com.jingge.autojob.skeleton.framework.task.AutoJobTemplate - [AutoJobLogHelper.java,139] - $Actual-Location - [TemplateJob.java:21]$ - 测试一下
+2023-08-25 14:46:00,004 - INFO - [taskExecutorPool-fastPool-1-thread-5] com.jingge.autojob.skeleton.framework.task.AutoJobTemplate - [AutoJobLogHelper.java,139] - $Actual-Location - [AutoJobTemplate.java:194]$ - 任务：TemplateJob执行完成，共计用时：0ms
+2023-08-25 14:46:00,004 - INFO - [taskExecutorPool-fastPool-1-thread-2] com.jingge.autojob.skeleton.framework.task.AutoJobTemplate - [AutoJobLogHelper.java,139] - $Actual-Location - [AutoJobTemplate.java:194]$ - 任务：TemplateJob执行完成，共计用时：0ms
+2023-08-25 14:46:00,004 - INFO - [taskExecutorPool-fastPool-1-thread-4] com.jingge.autojob.skeleton.framework.task.AutoJobTemplate - [AutoJobLogHelper.java,139] - $Actual-Location - [AutoJobTemplate.java:194]$ - 任务：TemplateJob执行完成，共计用时：0ms
+2023-08-25 14:46:00,004 - INFO - [taskExecutorPool-fastPool-1-thread-1] com.jingge.autojob.skeleton.framework.task.AutoJobTemplate - [AutoJobLogHelper.java,139] - $Actual-Location - [AutoJobTemplate.java:194]$ - 任务：TemplateJob执行完成，共计用时：0ms
+2023-08-25 14:46:00,006 - INFO - [taskExecutorPool-fastPool-1-thread-5] com.jingge.autojob.skeleton.framework.task.AutoJobTemplate - [AutoJobLogHelper.java,139] - $Actual-Location - [TemplateJob.java:21]$ - 测试一下
+2023-08-25 14:46:00,007 - INFO - [taskExecutorPool-fastPool-1-thread-5] com.jingge.autojob.skeleton.framework.task.AutoJobTemplate - [AutoJobLogHelper.java,139] - $Actual-Location - [AutoJobTemplate.java:194]$ - 任务：TemplateJob执行完成，共计用时：1ms
+2023-08-25 14:47:43,899 - INFO - [main] com.jingge.autojob.skeleton.framework.config.AutoJobConfigHolder - [AutoJobConfigHolder.java,45] - AutoJob加载配置文件：auto-job.yml,auto-job.properties
+2023-08-25 14:47:47,306 - INFO - [main] com.jingge.autojob.skeleton.db.DataSourceHolder - [DataSourceHolder.java,41] - AutoJob未配置环境变量，本次读取druid.properties作为数据源配置
+2023-08-25 14:47:48,376 - INFO - [main] com.alibaba.druid.pool.DruidDataSource - [DruidDataSource.java,972] - {dataSource-1} inited
+2023-08-25 14:47:48,387 - INFO - [main] com.jingge.autojob.logging.model.handler.AutoJobLogLoop - [AutoJobLogLoop.java,40] - log handler loop start
+2023-08-25 14:47:48,389 - INFO - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,154] - AutoJob已打开调试模式，调试日志将通过slf4j的WARN级别记录
+2023-08-25 14:47:48,403 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,172] - ==================================>AutoJob starting
+2023-08-25 14:47:48,487 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:47:48,764 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobAnnotationScheduler - [AutoJobAnnotationScheduler.java,54] - 注解调度器加载0个即将执行的任务到任务调度队列
+2023-08-25 14:47:48,764 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,196] - AutoJob环境变量：null
+2023-08-25 14:47:48,764 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,197] - AutoJob成功执行：4个加载器，成功加载7个调度器，共计用时：361ms
+2023-08-25 14:47:48,764 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,199] - ==================================>AutoJob started in 361 ms
+2023-08-25 14:47:50,951 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,204] - 任务450056368480980992已经调度进时间轮
+2023-08-25 14:47:53,009 - WARN - [startSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,71] - 任务：450056368480980992-2023-08-25 14:47:53时间轮触发成功
+2023-08-25 14:47:53,445 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:47:58,446 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:48:03,445 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:48:18,569 - INFO - [main] com.jingge.autojob.skeleton.framework.config.AutoJobConfigHolder - [AutoJobConfigHolder.java,45] - AutoJob加载配置文件：auto-job.yml,auto-job.properties
+2023-08-25 14:48:21,988 - INFO - [main] com.jingge.autojob.skeleton.db.DataSourceHolder - [DataSourceHolder.java,41] - AutoJob未配置环境变量，本次读取druid.properties作为数据源配置
+2023-08-25 14:48:23,014 - INFO - [main] com.alibaba.druid.pool.DruidDataSource - [DruidDataSource.java,972] - {dataSource-1} inited
+2023-08-25 14:48:23,026 - INFO - [main] com.jingge.autojob.logging.model.handler.AutoJobLogLoop - [AutoJobLogLoop.java,40] - log handler loop start
+2023-08-25 14:48:23,028 - INFO - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,154] - AutoJob已打开调试模式，调试日志将通过slf4j的WARN级别记录
+2023-08-25 14:48:23,042 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,172] - ==================================>AutoJob starting
+2023-08-25 14:48:23,129 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:48:23,407 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobAnnotationScheduler - [AutoJobAnnotationScheduler.java,54] - 注解调度器加载0个即将执行的任务到任务调度队列
+2023-08-25 14:48:23,407 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,196] - AutoJob环境变量：null
+2023-08-25 14:48:23,407 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,197] - AutoJob成功执行：4个加载器，成功加载7个调度器，共计用时：365ms
+2023-08-25 14:48:23,407 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,199] - ==================================>AutoJob started in 365 ms
+2023-08-25 14:48:25,231 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,204] - 任务450056513771720704已经调度进时间轮
+2023-08-25 14:48:28,017 - WARN - [startSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,71] - 任务：450056513771720704-2023-08-25 14:48:28时间轮触发成功
+2023-08-25 14:48:28,091 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:48:33,091 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:48:38,093 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:48:43,091 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:48:48,093 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:48:50,156 - WARN - [memoryTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobMemoryTaskScheduler - [AutoJobMemoryTaskScheduler.java,62] - 注册Memory任务：450056513339707392
+2023-08-25 14:48:51,089 - WARN - [memoryTaskScheduler] com.jingge.autojob.skeleton.model.tq.AutoJobTaskQueue - [AutoJobTaskQueue.java,83] - 任务450056513339707392已在调度队列存在，不能注册到调度队列
+2023-08-25 14:48:51,089 - WARN - [memoryTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobMemoryTaskScheduler - [AutoJobMemoryTaskScheduler.java,64] - 注册Memory任务失败：450056513339707392
+2023-08-25 14:48:52,088 - WARN - [memoryTaskScheduler] com.jingge.autojob.skeleton.model.tq.AutoJobTaskQueue - [AutoJobTaskQueue.java,83] - 任务450056513339707392已在调度队列存在，不能注册到调度队列
+2023-08-25 14:48:52,089 - WARN - [memoryTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobMemoryTaskScheduler - [AutoJobMemoryTaskScheduler.java,64] - 注册Memory任务失败：450056513339707392
+2023-08-25 14:48:53,090 - WARN - [memoryTaskScheduler] com.jingge.autojob.skeleton.model.tq.AutoJobTaskQueue - [AutoJobTaskQueue.java,83] - 任务450056513339707392已在调度队列存在，不能注册到调度队列
+2023-08-25 14:48:53,090 - WARN - [memoryTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobMemoryTaskScheduler - [AutoJobMemoryTaskScheduler.java,64] - 注册Memory任务失败：450056513339707392
+2023-08-25 14:48:53,091 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:48:54,089 - WARN - [memoryTaskScheduler] com.jingge.autojob.skeleton.model.tq.AutoJobTaskQueue - [AutoJobTaskQueue.java,83] - 任务450056513339707392已在调度队列存在，不能注册到调度队列
+2023-08-25 14:48:54,089 - WARN - [memoryTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobMemoryTaskScheduler - [AutoJobMemoryTaskScheduler.java,64] - 注册Memory任务失败：450056513339707392
+2023-08-25 14:48:55,001 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,204] - 任务450056513339707392已经调度进时间轮
+2023-08-25 14:48:55,088 - WARN - [memoryTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobMemoryTaskScheduler - [AutoJobMemoryTaskScheduler.java,62] - 注册Memory任务：450056513339707392
+2023-08-25 14:48:55,091 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,204] - 任务450056513339707392已经调度进时间轮
+2023-08-25 14:48:56,089 - WARN - [memoryTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobMemoryTaskScheduler - [AutoJobMemoryTaskScheduler.java,62] - 注册Memory任务：450056513339707392
+2023-08-25 14:48:56,092 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,204] - 任务450056513339707392已经调度进时间轮
+2023-08-25 14:48:57,089 - WARN - [memoryTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobMemoryTaskScheduler - [AutoJobMemoryTaskScheduler.java,62] - 注册Memory任务：450056513339707392
+2023-08-25 14:48:57,091 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,204] - 任务450056513339707392已经调度进时间轮
+2023-08-25 14:48:58,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:48:58,090 - WARN - [memoryTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobMemoryTaskScheduler - [AutoJobMemoryTaskScheduler.java,62] - 注册Memory任务：450056513339707392
+2023-08-25 14:48:58,090 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,204] - 任务450056513339707392已经调度进时间轮
+2023-08-25 14:48:59,088 - WARN - [memoryTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobMemoryTaskScheduler - [AutoJobMemoryTaskScheduler.java,62] - 注册Memory任务：450056513339707392
+2023-08-25 14:48:59,091 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,123] - 任务450056663390932992 miss fire
+2023-08-25 14:49:00,005 - WARN - [startSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,71] - 任务：450056513339707392-2023-08-25 14:49:00时间轮触发成功
+2023-08-25 14:49:00,006 - WARN - [startSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,71] - 任务：450056513339707392-2023-08-25 14:49:00时间轮触发成功
+2023-08-25 14:49:00,007 - WARN - [startSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,71] - 任务：450056513339707392-2023-08-25 14:49:00时间轮触发成功
+2023-08-25 14:49:00,007 - INFO - [taskExecutorPool-fastPool-1-thread-2] com.jingge.autojob.skeleton.framework.task.AutoJobTemplate - [AutoJobLogHelper.java,139] - $Actual-Location - [TemplateJob.java:21]$ - 测试一下
+2023-08-25 14:49:00,007 - WARN - [startSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,71] - 任务：450056513339707392-2023-08-25 14:49:00时间轮触发成功
+2023-08-25 14:49:00,007 - INFO - [taskExecutorPool-fastPool-1-thread-2] com.jingge.autojob.skeleton.framework.task.AutoJobTemplate - [AutoJobLogHelper.java,139] - $Actual-Location - [AutoJobTemplate.java:194]$ - 任务：TemplateJob执行完成，共计用时：1ms
+2023-08-25 14:49:00,007 - WARN - [startSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,71] - 任务：450056513339707392-2023-08-25 14:49:00时间轮触发成功
+2023-08-25 14:49:00,009 - INFO - [taskExecutorPool-fastPool-1-thread-3] com.jingge.autojob.skeleton.framework.task.AutoJobTemplate - [AutoJobLogHelper.java,139] - $Actual-Location - [TemplateJob.java:21]$ - 测试一下
+2023-08-25 14:49:00,009 - INFO - [taskExecutorPool-fastPool-1-thread-4] com.jingge.autojob.skeleton.framework.task.AutoJobTemplate - [AutoJobLogHelper.java,139] - $Actual-Location - [TemplateJob.java:21]$ - 测试一下
+2023-08-25 14:49:00,009 - INFO - [taskExecutorPool-fastPool-1-thread-3] com.jingge.autojob.skeleton.framework.task.AutoJobTemplate - [AutoJobLogHelper.java,139] - $Actual-Location - [AutoJobTemplate.java:194]$ - 任务：TemplateJob执行完成，共计用时：1ms
+2023-08-25 14:49:00,010 - INFO - [taskExecutorPool-fastPool-1-thread-1] com.jingge.autojob.skeleton.framework.task.AutoJobTemplate - [AutoJobLogHelper.java,139] - $Actual-Location - [TemplateJob.java:21]$ - 测试一下
+2023-08-25 14:49:00,011 - INFO - [taskExecutorPool-fastPool-1-thread-5] com.jingge.autojob.skeleton.framework.task.AutoJobTemplate - [AutoJobLogHelper.java,139] - $Actual-Location - [TemplateJob.java:21]$ - 测试一下
+2023-08-25 14:49:00,011 - INFO - [taskExecutorPool-fastPool-1-thread-4] com.jingge.autojob.skeleton.framework.task.AutoJobTemplate - [AutoJobLogHelper.java,139] - $Actual-Location - [AutoJobTemplate.java:194]$ - 任务：TemplateJob执行完成，共计用时：0ms
+2023-08-25 14:49:00,011 - INFO - [taskExecutorPool-fastPool-1-thread-5] com.jingge.autojob.skeleton.framework.task.AutoJobTemplate - [AutoJobLogHelper.java,139] - $Actual-Location - [AutoJobTemplate.java:194]$ - 任务：TemplateJob执行完成，共计用时：1ms
+2023-08-25 14:49:00,011 - INFO - [taskExecutorPool-fastPool-1-thread-1] com.jingge.autojob.skeleton.framework.task.AutoJobTemplate - [AutoJobLogHelper.java,139] - $Actual-Location - [AutoJobTemplate.java:194]$ - 任务：TemplateJob执行完成，共计用时：1ms
+2023-08-25 14:49:03,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:49:08,089 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:49:13,091 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:49:18,089 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:49:23,092 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:49:28,092 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:49:33,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:49:38,091 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:49:43,092 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:49:48,091 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:49:53,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:49:58,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:50:03,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:50:08,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:50:13,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:50:18,091 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:50:23,089 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:50:28,091 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:50:33,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:50:38,092 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:50:43,097 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:50:48,092 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:50:53,096 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:50:58,093 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:51:03,091 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:51:08,093 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:51:13,092 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:51:18,093 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:51:23,094 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:51:28,092 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:51:33,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:51:38,091 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:51:43,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:51:48,092 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:51:53,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:51:58,091 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:52:03,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:52:08,089 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:52:13,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:52:18,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:52:23,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:52:28,093 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:52:33,091 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:52:38,092 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:52:43,093 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:52:48,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:52:53,091 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:52:58,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:53:03,093 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:53:08,091 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:53:13,091 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:53:18,091 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:53:23,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:53:28,100 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:53:33,100 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:53:38,089 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:53:43,091 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:53:48,089 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:53:53,091 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:53:58,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:54:03,101 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:54:08,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:54:13,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:54:18,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:54:23,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:54:28,089 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:54:33,089 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:54:38,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:54:43,091 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:54:48,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:54:53,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:54:58,090 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:55:03,092 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:55:08,091 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:55:13,095 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:55:18,092 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 14:55:23,089 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:32:48,747 - INFO - [main] com.jingge.autojob.skeleton.framework.config.AutoJobConfigHolder - [AutoJobConfigHolder.java,45] - AutoJob加载配置文件：auto-job.yml,auto-job.properties
+2023-08-25 15:33:05,227 - INFO - [main] com.jingge.autojob.skeleton.framework.config.AutoJobConfigHolder - [AutoJobConfigHolder.java,45] - AutoJob加载配置文件：auto-job.yml,auto-job.properties
+2023-08-25 15:33:09,233 - INFO - [main] com.jingge.autojob.skeleton.db.DataSourceHolder - [DataSourceHolder.java,41] - AutoJob未配置环境变量，本次读取druid.properties作为数据源配置
+2023-08-25 15:33:10,317 - INFO - [main] com.alibaba.druid.pool.DruidDataSource - [DruidDataSource.java,972] - {dataSource-1} inited
+2023-08-25 15:33:10,329 - INFO - [main] com.jingge.autojob.logging.model.handler.AutoJobLogLoop - [AutoJobLogLoop.java,40] - log handler loop start
+2023-08-25 15:33:10,332 - INFO - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,154] - AutoJob已打开调试模式，调试日志将通过slf4j的WARN级别记录
+2023-08-25 15:33:10,349 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,172] - ==================================>AutoJob starting
+2023-08-25 15:33:10,459 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:33:10,778 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobAnnotationScheduler - [AutoJobAnnotationScheduler.java,54] - 注解调度器加载0个即将执行的任务到任务调度队列
+2023-08-25 15:33:10,778 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,196] - AutoJob环境变量：null
+2023-08-25 15:33:10,778 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,197] - AutoJob成功执行：4个加载器，成功加载7个调度器，共计用时：429ms
+2023-08-25 15:33:10,780 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,199] - ==================================>AutoJob started in 431 ms
+2023-08-25 15:33:12,451 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,204] - 任务450067785443938304已经调度进时间轮
+2023-08-25 15:33:15,013 - WARN - [startSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,71] - 任务：450067785443938304-2023-08-25 15:33:15时间轮触发成功
+2023-08-25 15:33:15,403 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:33:20,404 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:33:25,407 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:33:30,401 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:33:35,404 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:33:40,404 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:33:45,406 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:33:50,402 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:33:55,406 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:34:00,404 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:34:05,404 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:34:10,405 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:34:15,404 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:34:20,404 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:34:25,403 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:34:30,401 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:34:35,402 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:34:40,402 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:34:45,401 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:34:50,401 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:40:00,932 - INFO - [main] com.jingge.autojob.skeleton.framework.config.AutoJobConfigHolder - [AutoJobConfigHolder.java,45] - AutoJob加载配置文件：auto-job.yml,auto-job.properties
+2023-08-25 15:40:04,615 - INFO - [main] com.jingge.autojob.skeleton.db.DataSourceHolder - [DataSourceHolder.java,41] - AutoJob未配置环境变量，本次读取druid.properties作为数据源配置
+2023-08-25 15:40:05,822 - INFO - [main] com.alibaba.druid.pool.DruidDataSource - [DruidDataSource.java,972] - {dataSource-1} inited
+2023-08-25 15:40:05,834 - INFO - [main] com.jingge.autojob.logging.model.handler.AutoJobLogLoop - [AutoJobLogLoop.java,40] - log handler loop start
+2023-08-25 15:40:05,836 - INFO - [main] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,154] - AutoJob已打开调试模式，调试日志将通过slf4j的WARN级别记录
+2023-08-25 15:40:05,848 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,172] - ==================================>AutoJob starting
+2023-08-25 15:40:05,939 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:40:06,220 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobAnnotationScheduler - [AutoJobAnnotationScheduler.java,54] - 注解调度器加载0个即将执行的任务到任务调度队列
+2023-08-25 15:40:06,220 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,196] - AutoJob环境变量：null
+2023-08-25 15:40:06,220 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,197] - AutoJob成功执行：4个加载器，成功加载7个调度器，共计用时：372ms
+2023-08-25 15:40:06,220 - INFO - [AutoJobRunThread] com.jingge.autojob.skeleton.framework.boot.AutoJobApplication - [AutoJobApplication.java,199] - ==================================>AutoJob started in 372 ms
+2023-08-25 15:40:08,461 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,204] - 任务450069527905939456已经调度进时间轮
+2023-08-25 15:40:10,890 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:40:11,012 - WARN - [startSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,71] - 任务：450069527905939456-2023-08-25 15:40:11时间轮触发成功
+2023-08-25 15:40:15,892 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:40:20,892 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:40:25,890 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:40:30,890 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:40:35,889 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:40:40,890 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:40:45,901 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:40:50,890 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:40:50,943 - WARN - [memoryTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobMemoryTaskScheduler - [AutoJobMemoryTaskScheduler.java,64] - 注册Memory任务：450069527457148928
+2023-08-25 15:40:51,889 - WARN - [memoryTaskScheduler] com.jingge.autojob.skeleton.model.tq.AutoJobTaskQueue - [AutoJobTaskQueue.java,83] - 任务450069527457148928已在调度队列存在，不能注册到调度队列
+2023-08-25 15:40:51,889 - WARN - [memoryTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobMemoryTaskScheduler - [AutoJobMemoryTaskScheduler.java,66] - 注册Memory任务失败：450069527457148928
+2023-08-25 15:40:52,888 - WARN - [memoryTaskScheduler] com.jingge.autojob.skeleton.model.tq.AutoJobTaskQueue - [AutoJobTaskQueue.java,83] - 任务450069527457148928已在调度队列存在，不能注册到调度队列
+2023-08-25 15:40:52,888 - WARN - [memoryTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobMemoryTaskScheduler - [AutoJobMemoryTaskScheduler.java,66] - 注册Memory任务失败：450069527457148928
+2023-08-25 15:40:53,889 - WARN - [memoryTaskScheduler] com.jingge.autojob.skeleton.model.tq.AutoJobTaskQueue - [AutoJobTaskQueue.java,83] - 任务450069527457148928已在调度队列存在，不能注册到调度队列
+2023-08-25 15:40:53,889 - WARN - [memoryTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobMemoryTaskScheduler - [AutoJobMemoryTaskScheduler.java,66] - 注册Memory任务失败：450069527457148928
+2023-08-25 15:40:54,894 - WARN - [memoryTaskScheduler] com.jingge.autojob.skeleton.model.tq.AutoJobTaskQueue - [AutoJobTaskQueue.java,83] - 任务450069527457148928已在调度队列存在，不能注册到调度队列
+2023-08-25 15:40:54,895 - WARN - [memoryTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobMemoryTaskScheduler - [AutoJobMemoryTaskScheduler.java,66] - 注册Memory任务失败：450069527457148928
+2023-08-25 15:40:55,001 - WARN - [transferSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,204] - 任务450069527457148928已经调度进时间轮
+2023-08-25 15:40:55,890 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:41:00,003 - WARN - [startSchedulerThread] com.jingge.autojob.skeleton.model.scheduler.AutoJobTimeWheelScheduler - [AutoJobTimeWheelScheduler.java,71] - 任务：450069527457148928-2023-08-25 15:41:00时间轮触发成功
+2023-08-25 15:41:00,004 - INFO - [taskExecutorPool-fastPool-1-thread-2] com.jingge.autojob.skeleton.framework.task.AutoJobTemplate - [AutoJobLogHelper.java,139] - $Actual-Location - [TemplateJob.java:21]$ - 测试一下
+2023-08-25 15:41:00,005 - INFO - [taskExecutorPool-fastPool-1-thread-2] com.jingge.autojob.skeleton.framework.task.AutoJobTemplate - [AutoJobLogHelper.java,139] - $Actual-Location - [AutoJobTemplate.java:194]$ - 任务：TemplateJob执行完成，共计用时：0ms
+2023-08-25 15:41:00,891 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:41:05,891 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:41:10,889 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
+2023-08-25 15:41:15,902 - WARN - [DBTaskScheduler] com.jingge.autojob.skeleton.model.scheduler.AutoJobDBTaskScheduler - [AutoJobDBTaskScheduler.java,62] - 查找到0个DB任务
