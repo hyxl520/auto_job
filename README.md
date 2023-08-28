@@ -13,7 +13,7 @@
 </div>
 
 
-<p style="color:#7DF46A;">由于是一个刚毕业一年的大学生小菜开发和维护的框架，所以能用最新版本就用最新版本，BUG相比最少、性能最高也最稳定。如果有BUG请多多体谅，咱们Issues相见。</p>
+[English document](./README_EN.md)
 
 ## <span style="color:#FFFE91;">版本更新</span>
 
