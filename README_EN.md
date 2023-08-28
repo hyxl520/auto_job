@@ -123,14 +123,14 @@ Simple development: The original intention of AutoJob development is to have the
 ```java
 	@AutoJob(attributes = "{'我爱你，心连心',12.5,12,true}", cronExpression = "5/7 * * * * ?")
     public void formatAttributes(String string, Double decimal, Integer num, Boolean flag) {
-        //参数注入
-        AutoJobLogHelper logger = new AutoJobLogHelper();//使用框架内置的日志类
-        logger.setSlf4jProxy(log);//对Slf4j的log进行代理，日志输出将会使用Slf4j输出
+        //attributes init
+        AutoJobLogHelper logger = new AutoJobLogHelper();//use log
+        logger.setSlf4jProxy(log);//proxy slf4j
         logger.info("string={}", string);
         logger.warn("decimal={}", decimal);
         logger.debug("num={}", num);
         logger.error("flag={}", flag);
-        //使用mapper
+        //use mapper
         mapper.selectById(21312L);
         //...
     }
@@ -140,17 +140,17 @@ Simple to use: You don’t need to pay much attention to the configuration when 
 
 
 ```java
-//配置任务扫描包路径
+//config scan path
 @AutoJobScan({"com.yourpackage"})
-//处理器自动扫描
+//enable processor scan
 @AutoJobProcessorScan({"com.yourpackage"})
 public class AutoJobMainApplication {
     public static void main(String[] args) {
-    //框架启动
+    //start the framework
     	new AutoJobBootstrap(AutoJobMainApplication.class)
                 .build()
                 .run();
-        System.out.println("==================================>系统创建完成");
+        System.out.println("==================================>system start success");
  	}
 
 }
@@ -166,11 +166,11 @@ Thanks to good system architecture and coding design, your application doesn’t
 
 **Consistency:** The framework uses DB optimistic lock to achieve the consistency of the task. In the cluster mode, the scheduler will try to obtain the lock before scheduling the task, and will schedule the task after obtaining the lock successfully.
 
-**HA<span style="color:#FFFE91;">（新）</span>：** The framework supports decentralized cluster deployment, where cluster nodes communicate via RPC encryption. Failover between cluster nodes occurs automatically.
+**HA<span style="color:#FFFE91;">（new）</span>：** The framework supports decentralized cluster deployment, where cluster nodes communicate via RPC encryption. Failover between cluster nodes occurs automatically.
 
-**弹性增缩容<span style="color:#FFFE91;">（新）</span>：** Support the dynamic online and offline of the node, and at the same time, the node supports to open the protection mode to prevent the node from leaving the cluster in the harsh network environment.
+**Elastic shrinkage capacity<span style="color:#FFFE91;">（new）</span>：** Support the dynamic online and offline of the node, and at the same time, the node supports to open the protection mode to prevent the node from leaving the cluster in the harsh network environment.
 
-Failover and local retry are **任务失败重试<span style="color:#FFFE91;">（新）</span>：** supported.
+**Task failure retry**<span style="color:#FFFE91;">（new）</span>：Failover and local retry are  supported.
 
 **Complete life cycle:** The framework provides a complete life cycle event of the task, which can be captured and processed by the business.
 
@@ -189,7 +189,7 @@ The task white list function is **Task whitelist:** provided. Only the tasks in 
 
 ```java
 /**
- * 你的自定义调度器
+ * your scheduler
  * @Author Huang Yongxiang
  * @Date 2022/08/18 14:56
  */
@@ -198,7 +198,7 @@ public class YourScheduler extends AbstractScheduler{
         super(executorPool, register, configHolder);
     }
     
-    //...调度逻辑
+    //...logic
 }
 
 @AutoJobScan("com.example.autojob.job")
@@ -207,11 +207,11 @@ public class AutoJobMainApplication {
     public static void main(String[] args) {
         new AutoJobLauncherBuilder(AutoJobMainApplication.class)
                 .withAutoScanProcessor()
-            	//配置你的调度器
+            	//config
                 .addScheduler(YourScheduler.class)
                 .build()
                 .run();
-        System.out.println("==================================>系统创建完成");
+        System.out.println("==================================>system start success");
     }
 }
 ```
@@ -230,9 +230,9 @@ At present, the system provides: task failure alarm, task rejection alarm, node 
 
 **Script Tasks:** Provide the execution of script tasks, such as Python, Shell, SQL, etc.
 
-Under the **动态分片<span style="color:#FFFE91;">（新）</span>：** cluster mode, the framework supports task fragmentation and multi-machine operation.
+**Dynamic sharding**<span style="color:#FFFE91;">（new）</span>：Under the  cluster mode, the framework supports task fragmentation and multi-machine operation.
 
-The **Fully asynchronous:** task scheduling process is fully asynchronous, such as asynchronous scheduling, asynchronous execution, asynchronous log, etc., which can effectively reduce the peak flow of intensive scheduling and theoretically support the operation of tasks of any duration.
+**The Fully asynchronous:** task scheduling process is fully asynchronous, such as asynchronous scheduling, asynchronous execution, asynchronous log, etc., which can effectively reduce the peak flow of intensive scheduling and theoretically support the operation of tasks of any duration.
 
 ## 3. Quick use
 
@@ -254,10 +254,10 @@ Developing an annotation-based task is very simple, and you only need to care ab
 
 
 ```java
- @AutoJob(attributes = "{'我爱你，心连心',12.5,12,true}", cronExpression = "5/7 * * * * ?", id = 2, alias = "参数测试任务")
+ @AutoJob(attributes = "{'我爱你，心连心',12.5,12,true}", cronExpression = "5/7 * * * * ?", id = 2, alias = "test task")
     public void formatAttributes(String string, Double decimal, Integer num, Boolean flag) {
         AutoJobLogHelper logger=new AutoJobLogHelper();
-        //log是org.slf4j.Logger对象，这里对其进行代理
+        //log is object of org.slf4j.Logger，proxy it
         logger.setSlf4jProxy(log);
         logger.info("string={}", string);
         logger.warn("decimal={}", decimal);
@@ -274,19 +274,19 @@ Manually creating tasks is more flexible than creating annotations. The framewor
 
 
 ```java
-MethodTask task = new AutoJobMethodTaskBuilder(Jobs.class, "hello") //方法型任务需要指定方法所在的类以及方法名
+MethodTask task = new AutoJobMethodTaskBuilder(Jobs.class, "hello") 
           .setTaskId(IdGenerator.getNextIdAsLong())
-          .setTaskAlias("测试任务") //任务别名
-    	  .setParams("{'我爱你，心连心',12.5,12,true}") //任务参数，支持simple参数
+          .setTaskAlias("测试任务") //alias
+    	  .setParams("{'我爱你，心连心',12.5,12,true}") //attributes
           .setTaskType(AutoJobTask.TaskType.MEMORY_TASk)
-          .setMethodObjectFactory(new DefaultMethodObjectFactory()) //方法运行对象工厂，用于创建方法运行的对象上下文
-          .addACronExpressionTrigger("* 5 7 * * * ?", -1) //添加一个cron-like触发器
+          .setMethodObjectFactory(new DefaultMethodObjectFactory())
+          .addACronExpressionTrigger("* 5 7 * * * ?", -1) //add a cron-like trigger
           .build();
 
 AutoJobApplication
          .getInstance()
-         .getMemoryTaskAPI() //获取全局的内存任务的API
-         .registerTask(new AutoJobMethodTaskAttributes(task)); //注册任务
+         .getMemoryTaskAPI() //get global api
+         .registerTask(new AutoJobMethodTaskAttributes(task)); //register it
 ```
 
 #### 3.3. Based on Functional Interface
@@ -302,24 +302,24 @@ public class Server {
                 .withAutoScanProcessor()
                 .build()
                 .run();
-        /*=================测试=================>*/
-        //创建一个FunctionTask，参数是要执行的任务逻辑
+        /*=================test=================>*/
+        //create a FunctionTask，the content is lambda
         FunctionTask functionTask = new FunctionTask(context -> {
             context
                     .getLogHelper()
-                    .info("测试一下");
-            //阻塞5秒，模拟任务执行时长5秒
+                    .info("test");
+            //sleep 5 seconds
             SyncHelper.sleepQuietly(5, TimeUnit.SECONDS);
         });
-        //直接调用submit方法提交任务给AutoJob执行，将会返回一个FunctionFuture对象
+        //use submit method to submit the task
         FunctionFuture future = functionTask.submit();
-        //可以阻塞等待执行结果
-        System.out.println("执行完啦：" + future.get());
-        //可以直接调用getLogs方法获取任务执行的日志，日志将会按照配置的保存策略保存到指定位置（一般是DB）
+        //waitting 
+        System.out.println("finished" + future.get());
+        //use getLogs method to get logs
         functionTask
                 .getLogs(3, TimeUnit.SECONDS)
                 .forEach(System.out::println);
-        System.out.println("日志输出完成");
+        System.out.println("log ouput finished");
         /*=======================Finished======================<*/
     }
 }
@@ -343,7 +343,7 @@ public class AutoJobMainApplication {
                 .withAutoScanProcessor()
                 .build()
                 .run();
-        System.out.println("==================================>AutoJob应用已启动完成");
+        System.out.println("==================================>AutoJob application start success");
     }
 }
 ```
@@ -416,7 +416,7 @@ As in the above method: `exampleMethod1`, use the SIMPLE parameter:
 ```java
 MethodTask task = new AutoJobMethodTaskBuilder(Jobs.class, "hello") 
           .setTaskId(IdGenerator.getNextIdAsLong())
-          .setTaskAlias("测试任务")
+          .setTaskAlias("test task")
     	  .setParams("{'我是字符串参数',12,12.5,true}")
           .setTaskType(AutoJobTask.TaskType.MEMORY_TASk)
           .setMethodObjectFactory(new DefaultMethodObjectFactory()) 
@@ -430,7 +430,7 @@ Use a FULL-type parameter
 ```java
 MethodTask task = new AutoJobMethodTaskBuilder(Jobs.class, "hello")
                 .setTaskId(IdGenerator.getNextIdAsLong())
-                .setTaskAlias("测试任务")
+                .setTaskAlias("test task")
                 .setParams("[{\"values\":{\"value\":\"字符串参数\"},\"type\":\"string\"},{\"values\":{\"value\":12},\"type\":\"integer\"},{\"values\":{\"value\":12.5},\"type\":\"decimal\"},{\"values\":{\"value\":false},\"type\":\"boolean\"}]")
                 .setTaskType(AutoJobTask.TaskType.MEMORY_TASk)
                 .setMethodObjectFactory(new DefaultMethodObjectFactory())
@@ -440,7 +440,7 @@ MethodTask task = new AutoJobMethodTaskBuilder(Jobs.class, "hello")
 [
   {
     "values": {
-      "value": "字符串参数"
+      "value": "string attributes"
     },
     "type": "string"
   },
@@ -484,7 +484,7 @@ Param param = new Param();
         param.setId(1);
         param.setNum("12");
 System.out.println(new AttributesBuilder()
-        .addParams(AttributesBuilder.AttributesType.STRING, "字符串参数")
+        .addParams(AttributesBuilder.AttributesType.STRING, "string attributes")
         .addParams(AttributesBuilder.AttributesType.INTEGER, 12)
         .addParams(AttributesBuilder.AttributesType.DECIMAL, 12.5)
         .addParams(AttributesBuilder.AttributesType.BOOLEAN, false)
@@ -615,10 +615,10 @@ public void hello(String str) {
         logHelper.info("当前任务类型：{}", context
                 .getTaskType()
                 .toString());
-        //获取当前任务运行栈
+        //get current task running stack
         AutoJobRunningStack stack = context.getCurrentStack();
         logHelper.info("当前栈深：{}", stack.depth());
-        //获取本次运行的栈帧
+        //get running stack entry
         RunningStackEntry current = stack.currentStackEntry();
         //添加本次运行的一下上下文参数，以便本次执行失败重试能直接恢复
         current.addParam("runningPos", flag);
@@ -761,49 +761,45 @@ The framework provides rich configurations, which are loaded from `auto-job.yml`
 
 
 ```yaml
-# 动态任务调度框架配置V0.9.6
+# Configuration content V0.9.6
 autoJob:
   debug:
-    # debug模式，打开后将会使用WARN级别打印调度相关日志帮助调试
+    # debug model
     enable: false
   context:
-    # 调度队列长度，将要执行的任务将会放入调度队列，当时间段内并发任务量很大时建议将此值设置为较大的值
+    # the size of scheduleing queue, if you have many tasks please use bigger numer.
     schedulingQueue:
       length: 1000
-    # 内存任务容器相关配置
+    # memory container configuration
     memoryContainer:
       length: 200
-      # 内存任务执行完成后的处理策略：CLEAN_FINISHED-清理已完成的任务 KEEP_FINISHED-在缓存中存储
+      # the finished memory tasks's clean strategy：CLEAN_FINISHED, KEEP_FINISHED-keep in the cache
       cleanStrategy: KEEP_FINISHED
     running:
-      # 是否开启任务运行堆栈
+      # open stackTracke
       stackTrace:
         enable: true
         depth: 16
-  # 注解扫描相关配置
+  # annotation scan configuration
   annotation:
-    # 注解扫描过滤器
+    # filter
     filter:
       enable: true
       classPattern: "**.**"
-    # 是否启用注解任务扫描
     enable: true
-    # 注解未配置相关触发器信息时默认延迟触发的时间：分钟
     defaultDelayTime: 30
-  # 数据库类型，目前支持MySQL、PostgreSQL、Oracle、DamengSQL，理论支持SQL标准的所有数据库
+  # database type，supported MySQL,PostgreSQL,Oracle,DamengSQL and so on.
   database:
     type: mysql
-  # 执行器相关配置
+  # excutor configuration
   executor:
     fastPool:
       update:
-        # 是否启用快池的线程资源动态调配
+        # enable auto update with flow
         enable: true
-        # 允许任务的最大响应时间：秒，当开启动态调配时有效
         allowTaskMaximumResponseTime: 1
-        # 快池流量监控的周期：秒
         trafficUpdateCycle: 5
-        # 资源更新阈值，当任务的实际响应时间与允许任务的最大响应时间相比超出该阈值时会进行动态调整
+        # when the real response time over the value(percent),update the numer of thread.
         adjustedThreshold: 0.5
       coreThread:
         initial: 5
@@ -830,7 +826,7 @@ autoJob:
         min: 10
         max: 50
     relegation:
-      # 降级阈值，当任务执行时长超过该时间下次会自动降级到慢池执行（分钟）
+      # Degradation threshold (min)
       threshold: 3
   register:
     filter:
@@ -840,22 +836,21 @@ autoJob:
     finished:
       error:
         retry:
-          # 重试策略 LOCAL_RETRY-本机重试 FAILOVER-故障转移（开启集群时有效）
+          # repeat strategy  LOCAL_RETRY,FAILOVER（useful when open cluster model）
           strategy: FAILOVER
           enable: true
           retryCount: 5
           interval: 0.5
   emailAlert:
     enable: false
-    # 邮箱服务器类型，目前仅支持SMTP
+    # email server type, only support SMTP
     serverType: SMTP
-    # 邮件发送间隔：毫秒
     interval: 5000
     auth:
       sender: "1158055613@qq.com"
       receiver: "XXXXXX@qq.com"
       token: "XXXXXX"
-      # 邮箱类型，目前支持QQMail，gMail(谷歌邮箱)，163Mail，outLookMail，customize（自定义，自定义需要配置自定义邮箱服务器的地址和端口）
+      # supported email type,QQMail,gMail(google email),163Mail,outLookMail,customize
       type: QQMail
       customize:
         customMailServerAddress:
@@ -866,50 +861,38 @@ autoJob:
       clusterOpenProtectedMode: true
       clusterCloseProtectedMode: true
   logging:
-    # 日志保存策略
+    # log's save strategy
     strategy:
-      # 当内存日志条数达到此阈值执行一次保存
       saveWhenBufferReachSize: 10
-      # 当距离上次日志保存超过该时间（秒）执行一次日志保存
       saveWhenOverTime: 10
     scriptTask:
-      # 脚本任务日志的编码格式，该编码和平台相关
       encoding: GBK
-  # 集群部署相关配置
   cluster:
-    # 是否开启集群模式，开启后支持故障转移和任务分片
+    # open cluster model
     enable: true
-    # 本机绑定的TCP端口号
+    # binding tcp port
     port: 9501
     auth:
-      # 是否开启集群节点身份认证
       enable: true
-      # 加密通信秘钥，AES加密，秘钥长度16位
+      # aes decipher
       publicKey: "autoJob!@#=123.#"
-      # 身份token
       token: "hello"
     client:
-      # 远程通信节点地址，只需要写集群一个节点地址即可，节点会自动同步集群的节点路由表
+      # remote address
       remoteNodeAddress: "localhost:9502"
-      # 客户端池化配置
       pool:
         size: 10
         getTimeout: 1
         getDataTimeout: 3
         connectTimeout: 2
         keepAliveTimeout: 10
-      # 两个集群节点之间允许的最大时差：毫秒，请将建立连接的时长算入
       allowMaxJetLag: 3000
       nodeSync:
-        # 集群节点路由表同步周期，同时会作心跳检测
         cycle: 10
-        # 下线阈值，当n次心跳检测节点都不在线将会剔除（开启保护模式后除外）
         offLineThreshold: 3
     config:
       protectedMode:
-        # 是否开启保护模式，开启后节点不会被剔除
         enable: true
-        # 开启阈值，当当前集群节点数低于曾经最大节点数的此百分比时开启保护模式
         threshold: 0.3
 ```
 
