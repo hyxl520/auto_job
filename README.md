@@ -1,11 +1,6 @@
 # Auto-Job 任务调度框架 v0.9.6
 
-<div  style="display:flex;width:100%;height:100px;justify-content:space-around;align-items:center;">
-    <div>
-        <a src="./README.md">中文文档</a> |
-        <a src="./README_EN.md">English Document</a>
-	</div>
-</div>
+[中文文档](./READ<E.md) | [Englisg Document](./README_EN.md)
 
 ## <span style="color:#FFFE91;">版本更新</span>
 
