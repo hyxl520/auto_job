@@ -2,19 +2,6 @@
 
 <div  style="display:flex;width:100%;height:100px;justify-content:space-around;align-items:center;">
     <div>
-    	<img src="https://gitee.com/hyxl-520/auto-job/badge/star.svg?theme=white"/>
-    	<img src="https://gitee.com/hyxl-520/auto-job/badge/fork.svg?theme=white"/>
-	</div>
-</div>
-<div style="display:flex;width:100%;justify-content:space-around;align-items:center;">
-    <div>
-        <img src="https://gitee.com/hyxl-520/auto-job/widgets/widget_card.svg?colors=4183c4,ffffff,ffffff,e3e9ed,666666,9b9b9b"/>
-    </div>
-</div>
-
-
-<div  style="display:flex;width:100%;height:100px;justify-content:space-around;align-items:center;">
-    <div>
         <a src="./README.md">中文文档</a> |
         <a src="./README_EN.md">English Document</a>
 	</div>
