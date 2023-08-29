@@ -1,5 +1,9 @@
 # Auto-Job Task Scheduling Framework v0.9.6
 
+**This document is based on Chinese documents and translated using a translation engine, there may be some sentences are not smooth problem.**
+
+[中文文档](./README.md) | [English Document](./README_EN.md)
+
 ## <span style="color:#FFFE91;"> Version update</span>
 
 **2022-11-22：** First version 0.9.1
