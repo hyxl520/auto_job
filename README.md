@@ -1,6 +1,6 @@
 # Auto-Job 任务调度框架 v0.9.6
 
-[中文文档](./READ<E.md) | [Englisg Document](./README_EN.md)
+[中文文档](./READ<E.md) | [English Document](./README_EN.md)
 
 ## <span style="color:#FFFE91;">版本更新</span>
 
