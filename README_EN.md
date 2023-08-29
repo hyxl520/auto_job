@@ -238,7 +238,15 @@ At present, the system provides: task failure alarm, task rejection alarm, node 
 
 ### 1. Project import
 
-The framework does not depend on the Spring container environment and persistence layer frameworks such as MyBatis. You can import it into your project as a Maven module, which you can download from the code cloud: https://gitee.com/hyxl-520/auto-job.git
+The framework does not depend on the Spring container environment and persistence layer frameworks such as MyBatis. You can import it into your project as a Maven module, which you can download from the code cloud: https://gitee.com/hyxl-520/auto-job.git, you can use maven to import:
+
+```xml
+<dependency>
+  <groupId>io.github.hyxl520</groupId>
+  <artifactId>auto-job-framework</artifactId>
+  <version>0.9.6</version>
+</dependency>
+```
 
 The project is divided into two modules: auto-job-framework and auto-job-spring. The former is the core part of the framework, and the latter is the use of integration with Spring, which may be used to develop related consoles based on Spring web.
 

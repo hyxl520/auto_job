@@ -239,7 +239,15 @@ public class AutoJobMainApplication {
 
 ### 1、项目导入
 
-该框架不依赖于Spring容器环境和MyBatis等持久层框架，你可以将其作为一个Maven模块导入到你的项目中，你可以去码云上下载：https://gitee.com/hyxl-520/auto-job.git
+该框架不依赖于Spring容器环境和MyBatis等持久层框架，你可以将其作为一个Maven模块导入到你的项目中，你可以去码云上下载：https://gitee.com/hyxl-520/auto-job.git，或者可以直接使用Maven引入
+
+```xm
+<dependency>
+  <groupId>io.github.hyxl520</groupId>
+  <artifactId>auto-job-framework</artifactId>
+  <version>0.9.6</version>
+</dependency>
+```
 
 项目分为两个模块：auto-job-framework和auto-job-spring，前者是框架的核心部分，后者是与Spring集成的使用，后续可能会基于Spring web开发相关控制台。
 
